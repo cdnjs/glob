@@ -9,4 +9,4 @@ const options = {
 };
 const files = glob.sync(pattern, options);
 
-console.log(files.join("\n"));
+process.stdout.write(files.join("\n"));
